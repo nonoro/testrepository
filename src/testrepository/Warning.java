@@ -16,10 +16,8 @@ public class Warning {
         int second2 = 0;
         int second = 0;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("첫번째 시간을 입력하세요 > ");
         String strings1 = scanner.nextLine();
         String[] split1 = strings1.split(":");
-        System.out.print("두번째 시간을 입력하세요 > ");
         String strings2 = scanner.nextLine();
         String[] split2 = strings2.split(":");
 
