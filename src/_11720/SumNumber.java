@@ -1,4 +1,4 @@
-package testrepository;
+package _11720;
 
 import java.util.Scanner;
 
