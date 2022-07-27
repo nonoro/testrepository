@@ -16,7 +16,7 @@ public class Main {
 
         for (int i = 0; i < 15; i++) {
             for (int j = 0; j < 5; j++) {
-                if (strings[j][i] != null && j < 5) {
+                if (strings[j][i] != null) {
                     System.out.print(strings[j][i]);
                 }
             }
