@@ -16,8 +16,7 @@ public class Main {
         int C = Integer.parseInt(s[2]); // 피로도감소
         int D = Integer.parseInt(s[3]); // 최대 피로도
         int sum = 0;
-        int count = 0;
-        int aCount = 0;
+        int workingNumber = 0;
 
 
         for (int i = 0; i < 24; i++) {
@@ -29,11 +28,11 @@ public class Main {
                 continue;
             }
 
-            aCount += B;
+            workingNumber++;
             sum += A;
         }
 
-        System.out.println(aCount);
+        System.out.println(workingNumber * B);
 
     }
 }
